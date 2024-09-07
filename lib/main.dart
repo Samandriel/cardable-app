@@ -29,6 +29,15 @@ class MyApp extends StatelessWidget {
           surfaceContainer: ThemeConfig.dark.surfaceContainer,
         ),
         textTheme: TextTheme(
+          titleLarge: TextStyle(
+            color: ThemeConfig.dark.bodyText,
+          ),
+          titleMedium: TextStyle(
+            color: ThemeConfig.dark.bodyText,
+          ),
+          titleSmall: TextStyle(
+            color: ThemeConfig.dark.bodyText,
+          ),
           bodyLarge: TextStyle(
             color: ThemeConfig.dark.bodyText,
           ),

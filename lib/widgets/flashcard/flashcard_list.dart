@@ -1,5 +1,6 @@
 import 'package:cardwise/data/data.dart';
 import 'package:cardwise/models/flashcard_deck.dart';
+import 'package:cardwise/widgets/flashcard/flashcard_item.dart';
 import 'package:flutter/material.dart';
 
 class FlashcardList extends StatefulWidget {
@@ -17,7 +18,15 @@ class _FlashcardListState extends State<FlashcardList> {
     return ListView.builder(
       itemCount: _flashcards.length,
       itemBuilder: (context, index) {
-        return Text(_flashcards[index].name);
+        return Padding(
+          padding: const EdgeInsets.only(
+            top: 4.0,
+            bottom: 4.0,
+          ),
+          child: FlashcardItem(
+            flashcard: _flashcards[index],
+          ),
+        );
       },
     );
   }
