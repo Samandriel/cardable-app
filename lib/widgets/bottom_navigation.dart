@@ -10,6 +10,8 @@ class BottomNavigation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
+      type: BottomNavigationBarType.fixed,
+      selectedItemColor: Colors.white,
       currentIndex: currentIndex,
       items: const [
         BottomNavigationBarItem(
@@ -17,12 +19,16 @@ class BottomNavigation extends StatelessWidget {
           label: 'Home',
         ),
         BottomNavigationBarItem(
+          icon: Icon(Icons.style),
+          label: 'Library',
+        ),
+        BottomNavigationBarItem(
           icon: Icon(Icons.bar_chart),
-          label: 'Stats',
+          label: 'Insight',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle),
-          label: 'Settings',
+          label: 'Profile',
         ),
       ],
       onTap: onTap,
