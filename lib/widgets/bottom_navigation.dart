@@ -22,10 +22,10 @@ class BottomNavigation extends StatelessWidget {
           icon: Icon(Icons.style),
           label: 'Library',
         ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.bar_chart),
-          label: 'Insight',
-        ),
+        // BottomNavigationBarItem(
+        //   icon: Icon(Icons.bar_chart),
+        //   label: 'Insight',
+        // ),
         BottomNavigationBarItem(
           icon: Icon(Icons.account_circle),
           label: 'Profile',

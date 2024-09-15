@@ -131,7 +131,7 @@ List<FlashcardDeck> germanFlashcards = [
 
 List<FlashcardDeck> englishFlashcards = [
   FlashcardDeck(
-    name: "English A1",
+    name: "English A1 English A1English A1English A1English A1English A1",
     cards: englishA1Words,
     publishType: PublishType.public,
   ),
