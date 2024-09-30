@@ -31,12 +31,15 @@ class MyApp extends StatelessWidget {
         textTheme: TextTheme(
           titleLarge: TextStyle(
             color: ThemeConfig.dark.bodyText,
+            fontWeight: FontWeight.w700,
           ),
           titleMedium: TextStyle(
             color: ThemeConfig.dark.bodyText,
+            fontWeight: FontWeight.w700,
           ),
           titleSmall: TextStyle(
             color: ThemeConfig.dark.bodyText,
+            fontWeight: FontWeight.w700,
           ),
           bodyLarge: TextStyle(
             color: ThemeConfig.dark.bodyText,
