@@ -24,7 +24,7 @@ class _FlashcardListState extends State<FlashcardList> {
             bottom: 4.0,
           ),
           child: FlashcardItem(
-            flashcard: _flashcards[index],
+            flashcardDeck: _flashcards[index],
           ),
         );
       },

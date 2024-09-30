@@ -152,6 +152,24 @@ List<FlashcardDeck> englishFlashcards = [
   ),
 ];
 
+List<FlashcardDeck> recentFlashcards = [
+  FlashcardDeck(
+    name: "English A1",
+    cards: englishA1Words,
+    publishType: PublishType.public,
+  ),
+  FlashcardDeck(
+    name: "Deutsch A1",
+    cards: germanA1Words,
+    publishType: PublishType.public,
+  ),
+  FlashcardDeck(
+    name: "English B1",
+    cards: englishB1Words,
+    publishType: PublishType.public,
+  ),
+];
+
 List<FlashcardDeck> allFlashcards = [
   ...englishFlashcards,
   ...germanFlashcards,
