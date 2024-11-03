@@ -1,16 +1,16 @@
-import 'package:cardwise/models/flashcard_deck.dart';
+import 'package:cardwise/models/card_deck.dart';
 import 'package:cardwise/widgets/section_header.dart';
 import 'package:flutter/material.dart';
 
-class FlashcardDetailScreen extends StatefulWidget {
-  const FlashcardDetailScreen({super.key, required this.flashcardDeck});
-  final FlashcardDeck flashcardDeck;
+class CardDeckDetailScreen extends StatefulWidget {
+  const CardDeckDetailScreen({super.key, required this.cardDeck});
+  final CardDeck cardDeck;
 
   @override
-  State<FlashcardDetailScreen> createState() => _FlashcardDetailScreenState();
+  State<CardDeckDetailScreen> createState() => _CardDeckDetailScreenState();
 }
 
-class _FlashcardDetailScreenState extends State<FlashcardDetailScreen> {
+class _CardDeckDetailScreenState extends State<CardDeckDetailScreen> {
   bool _isFavorite = false;
 
   @override
@@ -66,7 +66,7 @@ class _FlashcardDetailScreenState extends State<FlashcardDetailScreen> {
                 ),
                 alignment: Alignment.center,
                 child: Text(
-                  widget.flashcardDeck.name,
+                  widget.cardDeck.name,
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.titleMedium,
                 ),

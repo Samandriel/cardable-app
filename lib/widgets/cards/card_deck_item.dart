@@ -1,17 +1,16 @@
-import 'package:cardwise/models/flashcard_deck.dart';
-import 'package:cardwise/screens/flashcard_detail_screen.dart';
+import 'package:cardwise/models/card_deck.dart';
+import 'package:cardwise/screens/card_deck_detail_screen.dart';
 import 'package:flutter/material.dart';
 
-class FlashcardItem extends StatelessWidget {
-  const FlashcardItem({super.key, required this.flashcardDeck});
+class CardDeckItem extends StatelessWidget {
+  const CardDeckItem({super.key, required this.cardDeck});
 
-  final FlashcardDeck flashcardDeck;
+  final CardDeck cardDeck;
 
   void _onTap(BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute(
-        builder: (context) =>
-            FlashcardDetailScreen(flashcardDeck: flashcardDeck),
+        builder: (context) => CardDeckDetailScreen(cardDeck: cardDeck),
       ),
     );
   }
@@ -53,7 +52,7 @@ class FlashcardItem extends StatelessWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            flashcardDeck.name,
+                            cardDeck.name,
                             style: const TextStyle(fontWeight: FontWeight.bold),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
@@ -85,7 +84,7 @@ class FlashcardItem extends StatelessWidget {
                       // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          '${flashcardDeck.cards.length.toString()} items',
+                          '${cardDeck.cards.length.toString()} items',
                           maxLines: 1,
                           style: const TextStyle(
                             fontSize: 12.0,

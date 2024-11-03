@@ -1,4 +1,4 @@
-import 'package:cardwise/widgets/flashcard/flashcard_list.dart';
+import 'package:cardwise/widgets/cards/card_deck_list.dart';
 import 'package:cardwise/widgets/section_header.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +26,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                 children: [
                   SectionHeader(title: "My Flashcards"),
                   Expanded(
-                    child: FlashcardList(),
+                    child: CardDeckList(),
                   ),
                 ],
               ),

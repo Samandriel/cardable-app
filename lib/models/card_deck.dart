@@ -1,8 +1,8 @@
 import 'package:cardwise/models/flashcard.dart';
 import 'package:cardwise/utils/enum.dart';
 
-class FlashcardDeck {
-  FlashcardDeck({
+class CardDeck {
+  CardDeck({
     required this.name,
     required this.cards,
     this.publishType = PublishType.draft,

@@ -1,5 +1,5 @@
 import 'package:cardwise/models/flashcard.dart';
-import 'package:cardwise/models/flashcard_deck.dart';
+import 'package:cardwise/models/card_deck.dart';
 import 'package:cardwise/utils/enum.dart';
 
 List<Flashcard> englishA1Words = [
@@ -106,71 +106,71 @@ List<Flashcard> germanB2Words = [
   Flashcard(question: "Question 10", answer: "Answer 10"),
 ];
 
-List<FlashcardDeck> germanFlashcards = [
-  FlashcardDeck(
+List<CardDeck> germanFlashcards = [
+  CardDeck(
     name: "Deutsch A1",
     cards: germanA1Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "Deutsch A2",
     cards: germanA2Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "Deutsch B1",
     cards: germanB1Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "Deutsch B2",
     cards: germanB2Words,
     publishType: PublishType.public,
   ),
 ];
 
-List<FlashcardDeck> englishFlashcards = [
-  FlashcardDeck(
+List<CardDeck> englishFlashcards = [
+  CardDeck(
     name: "English A1 English A1English A1English A1English A1English A1",
     cards: englishA1Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "English A2",
     cards: englishA2Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "English B1",
     cards: englishB1Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "English B2",
     cards: englishB2Words,
     publishType: PublishType.public,
   ),
 ];
 
-List<FlashcardDeck> recentFlashcards = [
-  FlashcardDeck(
+List<CardDeck> recentFlashcards = [
+  CardDeck(
     name: "English A1",
     cards: englishA1Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "Deutsch A1",
     cards: germanA1Words,
     publishType: PublishType.public,
   ),
-  FlashcardDeck(
+  CardDeck(
     name: "English B1",
     cards: englishB1Words,
     publishType: PublishType.public,
   ),
 ];
 
-List<FlashcardDeck> allFlashcards = [
+List<CardDeck> allFlashcards = [
   ...englishFlashcards,
   ...germanFlashcards,
 ];
