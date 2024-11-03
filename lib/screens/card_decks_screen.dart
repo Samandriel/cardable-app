@@ -2,14 +2,14 @@ import 'package:cardwise/widgets/cards/card_deck_list.dart';
 import 'package:cardwise/widgets/section_header.dart';
 import 'package:flutter/material.dart';
 
-class FlashcardScreen extends StatefulWidget {
-  const FlashcardScreen({super.key});
+class CardDecksScreen extends StatefulWidget {
+  const CardDecksScreen({super.key});
 
   @override
-  State<FlashcardScreen> createState() => _FlashcardScreenState();
+  State<CardDecksScreen> createState() => _CardDecksScreenState();
 }
 
-class _FlashcardScreenState extends State<FlashcardScreen> {
+class _CardDecksScreenState extends State<CardDecksScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

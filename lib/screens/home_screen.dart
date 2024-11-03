@@ -1,5 +1,5 @@
 import 'package:cardwise/screens/account_screen.dart';
-import 'package:cardwise/screens/flashcard_screen.dart';
+import 'package:cardwise/screens/card_decks_screen.dart';
 import 'package:cardwise/screens/library_screen.dart';
 import 'package:cardwise/screens/stats_screen.dart';
 import 'package:cardwise/widgets/bottom_navigation.dart';
@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: IndexedStack(
         index: _currentPageIndex,
         children: const [
-          FlashcardScreen(),
+          CardDecksScreen(),
           LibraryScreen(),
           StatsScreen(),
           AccountScreen(),
