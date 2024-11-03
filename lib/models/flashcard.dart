@@ -11,19 +11,37 @@ class Flashcard {
     required this.answer,
     this.learningStage = LearningStage.learning,
     this.isFavorite = false,
-    this.imageUrl = "",
-    this.questionLanguage = LanguageCode.enUS,
-    this.answerLanguage = LanguageCode.enUS,
     this.cardColor = Colors.grey,
   }) : id = uuid.v4();
 
   final String id;
-  final String question;
-  final String answer;
   final bool isFavorite;
   final Enum learningStage;
-  final String imageUrl;
-  final String questionLanguage;
-  final String answerLanguage;
   final Color cardColor;
+  final FlashcardQuestion question;
+  final FlashcardAnswer answer;
+}
+
+class FlashcardQuestion {
+  FlashcardQuestion({
+    this.text = "",
+    this.imageUrl = "",
+    this.language = LanguageCode.enUS,
+  });
+
+  final String text;
+  final String imageUrl;
+  final String language;
+}
+
+class FlashcardAnswer {
+  FlashcardAnswer({
+    this.text = "",
+    this.imageUrl = "",
+    this.language = LanguageCode.enUS,
+  });
+
+  final String text;
+  final String imageUrl;
+  final String language;
 }

@@ -3,107 +3,267 @@ import 'package:cardwise/models/card_deck.dart';
 import 'package:cardwise/utils/enum.dart';
 
 List<Flashcard> englishA1Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<Flashcard> englishA2Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<Flashcard> englishB1Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<Flashcard> englishB2Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<Flashcard> germanA1Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<Flashcard> germanA2Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<Flashcard> germanB1Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<Flashcard> germanB2Words = [
-  Flashcard(question: "Question 1", answer: "Answer 1"),
-  Flashcard(question: "Question 2", answer: "Answer 2"),
-  Flashcard(question: "Question 3", answer: "Answer 3"),
-  Flashcard(question: "Question 4", answer: "Answer 4"),
-  Flashcard(question: "Question 5", answer: "Answer 5"),
-  Flashcard(question: "Question 6", answer: "Answer 6"),
-  Flashcard(question: "Question 7", answer: "Answer 7"),
-  Flashcard(question: "Question 8", answer: "Answer 8"),
-  Flashcard(question: "Question 9", answer: "Answer 9"),
-  Flashcard(question: "Question 10", answer: "Answer 10"),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 1"),
+      answer: FlashcardAnswer(text: "Answer 1")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 2"),
+      answer: FlashcardAnswer(text: "Answer 2")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 3"),
+      answer: FlashcardAnswer(text: "Answer 3")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 4"),
+      answer: FlashcardAnswer(text: "Answer 4")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 5"),
+      answer: FlashcardAnswer(text: "Answer 5")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 6"),
+      answer: FlashcardAnswer(text: "Answer 6")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 7"),
+      answer: FlashcardAnswer(text: "Answer 7")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 8"),
+      answer: FlashcardAnswer(text: "Answer 8")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 9"),
+      answer: FlashcardAnswer(text: "Answer 9")),
+  Flashcard(
+      question: FlashcardQuestion(text: "Question 10"),
+      answer: FlashcardAnswer(text: "Answer 10")),
 ];
 
 List<CardDeck> germanFlashcards = [
