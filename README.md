@@ -1,4 +1,4 @@
-# cardwise
+# Cardable App
 
 A new Flutter project.
 
